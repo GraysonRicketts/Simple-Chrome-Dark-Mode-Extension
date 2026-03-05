@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" width="480" height="240">
+  <defs>
+    <clipPath id="clip"><rect width="480" height="240" rx="12"/></clipPath>
+  </defs>
+
+  <!-- keyTimes: 0 | 0.30 | 0.45 | 0.75 | 0.90 | 1  (4s loop) -->
+  <!-- light→light→dark→dark→light→light -->
+
+  <g clip-path="url(#clip)">
+
+    <!-- Page background -->
+    <rect width="480" height="240">
+      <animate attributeName="fill"
+        values="#ffffff;#ffffff;#111827;#111827;#ffffff;#ffffff"
+        keyTimes="0;0.30;0.45;0.75;0.90;1" dur="4s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Nav bar -->
+    <rect width="480" height="40">
+      <animate attributeName="fill"
+        values="#f3f4f6;#f3f4f6;#1f2937;#1f2937;#f3f4f6;#f3f4f6"
+        keyTimes="0;0.30;0.45;0.75;0.90;1" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <rect y="39" width="480" height="1">
+      <animate attributeName="fill"
+        values="#e5e7eb;#e5e7eb;#374151;#374151;#e5e7eb;#e5e7eb"
+        keyTimes="0;0.30;0.45;0.75;0.90;1" dur="4s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Logo block -->
+    <rect x="20" y="13" width="72" height="14" rx="3">
+      <animate attributeName="fill"
+        values="#111827;#111827;#f9fafb;#f9fafb;#111827;#111827"
+        keyTimes="0;0.30;0.45;0.75;0.90;1" dur="4s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Nav links -->
+    <rect x="192" y="15" width="36" height="10" rx="2">
+      <animate attributeName="fill"
+        values="#9ca3af;#9ca3af;#6b7280;#6b7280;#9ca3af;#9ca3af"
+        keyTimes="0;0.30;0.45;0.75;0.90;1" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="240" y="15" width="36" height="10" rx="2">
+      <animate attributeName="fill"
+        values="#9ca3af;#9ca3af;#6b7280;#6b7280;#9ca3af;#9ca3af"
+        keyTimes="0;0.30;0.45;0.75;0.90;1" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="288" y="15" width="36" height="10" rx="2">
+      <animate attributeName="fill"
+        values="#9ca3af;#9ca3af;#6b7280;#6b7280;#9ca3af;#9ca3af"
+        keyTimes="0;0.30;0.45;0.75;0.90;1" dur="4s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Article title -->
+    <rect x="24" y="58" width="248" height="18" rx="3">
+      <animate attributeName="fill"
+        values="#111827;#111827;#f9fafb;#f9fafb;#111827;#111827"
+        keyTimes="0;0.30;0.45;0.75;0.90;1" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="24" y="82" width="188" height="18" rx="3">
+      <animate attributeName="fill"
+        values="#111827;#111827;#f9fafb;#f9fafb;#111827;#111827"
+        keyTimes="0;0.30;0.45;0.75;0.90;1" dur="4s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Byline -->
+    <rect x="24" y="112" width="130" height="8" rx="2">
+      <animate attributeName="fill"
+        values="#9ca3af;#9ca3af;#6b7280;#6b7280;#9ca3af;#9ca3af"
+        keyTimes="0;0.30;0.45;0.75;0.90;1" dur="4s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Body text -->
+    <rect x="24" y="134" width="248" height="8" rx="2">
+      <animate attributeName="fill"
+        values="#374151;#374151;#d1d5db;#d1d5db;#374151;#374151"
+        keyTimes="0;0.30;0.45;0.75;0.90;1" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="24" y="150" width="232" height="8" rx="2">
+      <animate attributeName="fill"
+        values="#374151;#374151;#d1d5db;#d1d5db;#374151;#374151"
+        keyTimes="0;0.30;0.45;0.75;0.90;1" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="24" y="166" width="244" height="8" rx="2">
+      <animate attributeName="fill"
+        values="#374151;#374151;#d1d5db;#d1d5db;#374151;#374151"
+        keyTimes="0;0.30;0.45;0.75;0.90;1" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="24" y="182" width="210" height="8" rx="2">
+      <animate attributeName="fill"
+        values="#374151;#374151;#d1d5db;#d1d5db;#374151;#374151"
+        keyTimes="0;0.30;0.45;0.75;0.90;1" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="24" y="198" width="236" height="8" rx="2">
+      <animate attributeName="fill"
+        values="#374151;#374151;#d1d5db;#d1d5db;#374151;#374151"
+        keyTimes="0;0.30;0.45;0.75;0.90;1" dur="4s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Right image card -->
+    <rect x="308" y="56" width="150" height="96" rx="8">
+      <animate attributeName="fill"
+        values="#e5e7eb;#e5e7eb;#374151;#374151;#e5e7eb;#e5e7eb"
+        keyTimes="0;0.30;0.45;0.75;0.90;1" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="316" y="160" width="90" height="8" rx="2">
+      <animate attributeName="fill"
+        values="#9ca3af;#9ca3af;#6b7280;#6b7280;#9ca3af;#9ca3af"
+        keyTimes="0;0.30;0.45;0.75;0.90;1" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="316" y="174" width="68" height="8" rx="2">
+      <animate attributeName="fill"
+        values="#9ca3af;#9ca3af;#6b7280;#6b7280;#9ca3af;#9ca3af"
+        keyTimes="0;0.30;0.45;0.75;0.90;1" dur="4s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Extension icon background circle -->
+    <circle cx="454" cy="20" r="14">
+      <animate attributeName="fill"
+        values="#e5e7eb;#e5e7eb;#4b5563;#4b5563;#e5e7eb;#e5e7eb"
+        keyTimes="0;0.30;0.45;0.75;0.90;1" dur="4s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Lit bulb icon (shown in light mode) -->
+    <g transform="translate(442, 8)">
+      <animate attributeName="opacity"
+        values="1;1;0;0;1;1"
+        keyTimes="0;0.30;0.45;0.75;0.90;1" dur="4s" repeatCount="indefinite"/>
+      <path d="M12 2a7 7 0 0 0-4.24 12.58c.28.2.44.51.44.84V17h7.6v-1.58c0-.33.16-.64.44-.84A7 7 0 0 0 12 2z" fill="#FCD34D"/>
+      <path d="M10 6c1-1.5 2.2-2 3.5-2" stroke="white" stroke-width="1.2" stroke-linecap="round" fill="none" opacity="0.7"/>
+      <rect x="8.8" y="17.1" width="6.4" height="0.9" rx="0.3" fill="#9CA3AF"/>
+      <rect x="9.4" y="18.1" width="5.2" height="0.9" rx="0.3" fill="#9CA3AF"/>
+      <rect x="10.2" y="19.1" width="3.6" height="0.9" rx="0.4" fill="#9CA3AF"/>
+    </g>
+
+    <!-- Dark bulb icon (shown in dark mode) -->
+    <g transform="translate(442, 8)" opacity="0">
+      <animate attributeName="opacity"
+        values="0;0;1;1;0;0"
+        keyTimes="0;0.30;0.45;0.75;0.90;1" dur="4s" repeatCount="indefinite"/>
+      <path d="M12 2a7 7 0 0 0-4.24 12.58c.28.2.44.51.44.84V17h7.6v-1.58c0-.33.16-.64.44-.84A7 7 0 0 0 12 2z" fill="#d1d5db"/>
+      <rect x="8.8" y="17.1" width="6.4" height="0.9" rx="0.3" fill="#6b7280"/>
+      <rect x="9.4" y="18.1" width="5.2" height="0.9" rx="0.3" fill="#6b7280"/>
+      <rect x="10.2" y="19.1" width="3.6" height="0.9" rx="0.4" fill="#6b7280"/>
+    </g>
+
+    <!-- Click ripple — fires just before each transition -->
+    <circle cx="454" cy="20" fill="none" stroke="#FCD34D" stroke-width="1.5">
+      <animate attributeName="r"
+        values="0;0;14;18;0;0;14;18;0;0"
+        keyTimes="0;0.26;0.30;0.34;0.38;0.70;0.74;0.78;0.82;1"
+        dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity"
+        values="0;0.9;0.6;0.1;0;0;0.9;0.6;0.1;0"
+        keyTimes="0;0.26;0.30;0.34;0.38;0.70;0.74;0.78;0.82;1"
+        dur="4s" repeatCount="indefinite"/>
+    </circle>
+
+  </g>
+
+  <!-- Outer border (rendered outside clip so it's not cropped) -->
+  <rect width="480" height="240" rx="12" fill="none" stroke="#d1d5db" stroke-width="1"/>
+</svg>
