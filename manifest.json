@@ -7,5 +7,6 @@
     "default_popup": "popup.html",
     "default_icon": "icons/bulb-lit.svg"
   },
+  "background": { "service_worker": "background.js" },
   "permissions": ["activeTab", "scripting"]
 }
